@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Joyful</title>
+	<link rel="stylesheet" href="Stylell.css">
+	<style>
+		7*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-seri f;
+
+}
+ 
+  
+
+       .text-box{
+       		color: #000;
+       		position: bottom;
+       		bottom: 8%;
+       }
+       .text-box p{
+
+       	font-size: 50px;
+       	font-weight: 600;
+       }
+       .text-box h1{
+       	font-size: 190px;
+       	line-height: 160px;
+       	margin-left: -10;
+
+       }
+       .text-box h3{
+       	font-size: 40px;
+       	font-weight: 500;
+       }
+       	.text-box .row{
+
+       		display: flex;
+       		align-items: center;
+       		flex-wrap: wrap;
+       		margin-top: 30px;
+
+       	}
+       	.text-box a{
+       		color: #fff;
+       		text-decoration: none;
+       		padding: 10px 20px;
+       		margin-right: 20px;
+       		border: 2px solid #fff;
+       		display: flex;
+       		align-items: center;
+       		
+       	}
+       	.text-box a span{
+       		font-size: 30px;
+       		line-height: 15px;
+       		margin-left: 5px;
+       	}
+       	.social-icons{
+
+       		position: absolute;
+       		right: 5%;
+       		bottom: 8%;
+       	}
+       	.social-icons img{
+       		width: 25px;
+       		display: block;
+       		margin: 25px 5px;
+       		
+       	}
+       	.slide-effect {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: bottom;
+
+       		
+       		text-decoration: none;
+       		padding: 1px 2px;
+       		margin-right: 20px;
+       		border: 0.2px solid #fff;
+       		display: flex;
+       		align-items: center;
+       		
+       	
+
+}
+.text, .slideDown, .slideUp {
+  position: relative;
+  font-family: tahoma;
+  font-size: 35px;
+  opacity:0;
+}
+
+.text {
+  top:40px;
+  font-weight: bold;
+  animation: slideUp ease .6s forwards;
+  color: #fff;
+}
+
+.slideDown {
+  top:-40px;
+  left:5px;
+  animation: slideDown ease .6s forwards .6s;
+  color: #C7C5F4;
+}
+
+.slideUp {
+  top:40px;
+  left:10px;
+  animation: slideUp ease .5s forwards 1.5s;
+  color: #7C78B8;
+}
+@keyframes slideUp {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-40px);opacity:1;}
+}
+
+@keyframes slideDown {
+  0% {transform: translateY(0);}
+  100% {transform: translateY(40px);opacity:1;}
+}
+@media only screen and (max-width: 600px) {
+  .slide-effect, .text, .slideDown, .slideUp {
+    font-size: 15px;
+  }
+}
+
+	</style>
+</head>
+<body>
+	<div class="banner">
+		<div class="navbar">
+			<img src="pic/11.png" class="logo">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="">Sign Up</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<h1>WELCOME TO JOYFUL WEB</h1>
+			<p><h3>Baga nagaan dhuftan Kun Dhaabbata JOYFUL</h3><br> Hojiin keenyas Toora Weebsaayitii (Website) keessanii Bifaa fi Boca Babbareedaadhaan<br> Kaampaanii yookiis Dhaabbata Biizinasii keessaniif Hojjechuu ni dandeenya.</p>
+			<div>
+				<button type="button"><span></span>KAN BIROOF</button>
+				<button type="button"><span></span>NU QUUNNAMUUF</button>
+			</div>
+		</div>
+
+	</div>
+
+
+
+<body>
+	
+
+<div class="slide-effect">
+  <div class="text">Welcome to </div>
+  <div class="slideDown">JOYFUL </div>
+  <div class="slideUp">Web service</div>
+</div>
+<div class="text-box">
+				<p>I'M</p>
+				<h1>SAGNI</h1>
+				<h3>I HELP COMPANIES MAKE BEUTIFUL WEBSITES</h3>
+</div>
+</body>
+</html>
